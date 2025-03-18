@@ -3,7 +3,7 @@ function firstWord(s) {
 	s = s.trim();
 	let ans = "";
 	let i = 0;
-	while(s[i]!=' '){
+	while(s[i]!=' ' && i<s.length){
 		ans += s[i];
 		i++;
 	}
